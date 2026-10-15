@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "files-convertion-pipeline"
+version = "0.1.0"
+description = "Pipeline modular y automatizable para conversión de archivos (CSV, Excel, XML, TXT)."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pandas>=2.0.0",
+    "openpyxl>=3.1.0",
+    "lxml>=4.9.0",
+    "typer>=0.9.0",
+    "rich>=13.0.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "ruff>=0.1.0"
+]
+
+[project.scripts]
+files-convertion = "files_convertion_pipeline.interfaces.cli:app"

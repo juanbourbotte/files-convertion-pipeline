@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+src/files_convertion_pipeline/__init__.py
+src/files_convertion_pipeline.egg-info/PKG-INFO
+src/files_convertion_pipeline.egg-info/SOURCES.txt
+src/files_convertion_pipeline.egg-info/dependency_links.txt
+src/files_convertion_pipeline.egg-info/entry_points.txt
+src/files_convertion_pipeline.egg-info/requires.txt
+src/files_convertion_pipeline.egg-info/top_level.txt
+src/files_convertion_pipeline/core/__init__.py
+src/files_convertion_pipeline/core/base.py
+src/files_convertion_pipeline/core/converters.py
+src/files_convertion_pipeline/interfaces/__init__.py
+src/files_convertion_pipeline/interfaces/cli.py
+src/files_convertion_pipeline/utils/__init__.py
+src/files_convertion_pipeline/utils/logger.py

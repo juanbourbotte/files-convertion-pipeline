@@ -1,0 +1,2 @@
+[console_scripts]
+files-convertion = files_convertion_pipeline.interfaces.cli:app
